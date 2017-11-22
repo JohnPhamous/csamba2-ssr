@@ -3,15 +3,22 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'csamba2-ssr',
+    title: 'C-SAMBA',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'CSAMBA's Research Website Reboot' }
+      { hid: 'description', name: 'description', content: 'Stemming from multidisciplinary, international collaboration among material scientists, engineers, biologists, clinicians, and students from the University of California, Riverside and 3 top institutions in Mexico, the Center for the Synthesis of Advanced Materials for Biomedical Applications (C-SAMBA) seeks to synthesize, characterize, and test a new generation of nanocrystalline opto-ceramic materials for bioapplications. ' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css' },
+      { rel: 'stylesheet', href: '/css/csamba.css' },
+      { rel: 'stylesheet', href: '/css/csamba-extras.css' },
+      { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' }
+    ],
+    bodyAttr: {
+      class: 'csamba-landing-page--1'
+    }
   },
   /*
   ** Customize the progress bar color
