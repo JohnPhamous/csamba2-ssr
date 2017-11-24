@@ -1,8 +1,8 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">
+      <nuxt-link class="navbar-brand" to="/">
         C-SAMBA
-      </a>
+      </nuxt-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -12,11 +12,11 @@
             v-for="n in navItems"
             :key="n.name"
           >
-            <a class="nav-link"
-              :href="n.link"
+            <nuxt-link class="nav-link"
+              :to="n.link"
             >
               {{ n.name }}
-            </a>
+            </nuxt-link>
           </li>
         </ul>
 
@@ -36,43 +36,39 @@ export default {
       navItems: [
         {
           name: 'Home',
-          link: 'home'
+          link: '/'
         },
         {
-          name: 'Overview',
-          link: 'overview'
-        },
-        {
-          name: 'Faculty',
-          link: 'faculty'
+          name: 'People',
+          link: '/people'
         },
         {
           name: 'Publications',
-          link: 'publications'
+          link: '/publications'
         },
         {
           name: 'Research',
-          link: 'research'
+          link: '/research'
         },
         {
           name: 'Events',
-          link: 'events'
+          link: '/events'
         },
         {
           name: 'News Archive',
-          link: 'newsarchive'
+          link: '?newsarchive'
         },
         {
           name: 'Funding',
-          link: 'funding'
+          link: '/funding'
         },
         {
           name: 'Outreach',
-          link: 'outreach'
+          link: '/outreach'
         },
         {
           name: 'Contact',
-          link: 'contact'
+          link: '/contact'
         }
       ]
     }

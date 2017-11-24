@@ -1,11 +1,12 @@
 <template>
-  <div id="our-services" class="our-services section py-4">
+  <div id="overview" class="overview section py-4">
     <h2 class="section-title text-center my-5">About C-SAMBA</h2>
     <div class="features py-4 mb-4">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
             <h3>About</h3>
+            <img class="img-thumbnail" src="../../static/img/wttb.png"/>
             <p>
               Stemming from multidisciplinary, international collaboration among material scientists, engineers, biologists, clinicians, and students from the University of California, Riverside and 3 top institutions in Mexico, the Center for the Synthesis of Advanced Materials for Biomedical Applications (C-SAMBA) seeks to synthesize, characterize, and test a new generation of nanocrystalline opto-ceramic materials for bioapplications. 
             </p>
@@ -32,24 +33,24 @@
             <h3>Collaborators</h3>
           
             <div class="row justify-content-center">
-              <div class="col-md-2 col-md-offset-2">
-                <img class="collaborator" src="../../static/img/ucr.jpg" alt="UCR">
+              <div class="col-md-2 col-md-offset-2 d-flex align-items-center">
+                <img class="collaborator" src="../../static/img/collaborators/ucr.jpg" alt="UCR">
               </div>
 
-              <div class="col-md-2">
-                <img class="collaborator" src="../../static/img/cicese.png" alt="CICESE">
+              <div class="col-md-2 d-flex align-items-center">
+                <img class="collaborator" src="../../static/img/collaborators/cicese.png" alt="CICESE">
               </div>
 
-              <div class="col-md-2">
-                <img class="collaborator" src="../../static/img/inaoe.jpg" alt="INAOE">
+              <div class="col-md-2 d-flex align-items-center">
+                <img class="collaborator" src="../../static/img/collaborators/inaoe.jpg" alt="INAOE">
               </div>
 
-              <div class="col-md-2">
-                <img class="collaborator" src="../../static/img/unam.png" alt="UNAM">
+              <div class="col-md-2 d-flex align-items-center">
+                <img class="collaborator" src="../../static/img/collaborators/unam.png" alt="UNAM">
               </div>
 
-              <div class="col-md-2">
-                <img class="collaborator" src="../../static/img/ucsd.jpg" alt="UCSD">
+              <div class="col-md-2 d-flex align-items-center">
+                <img class="collaborator" src="../../static/img/collaborators/ucsd.jpg" alt="UCSD">
               </div>
 
             </div>
@@ -66,10 +67,19 @@
 .collaborator {
   width: 100%;
 }
+.img-thumbnail {
+  width: 350px;
+}
 </style>
 
 <script>
+
+import wttb from '~/static/img/wttb.png'
+
 export default {
+  components: {
+    wttb
+  },
   data: function () {
     return {
       researchThemes: [
