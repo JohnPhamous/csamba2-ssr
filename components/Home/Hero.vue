@@ -19,6 +19,15 @@
   padding-top: 15vh;
 }
 
+@media (max-width: 800px) {
+  #hero-content {
+    padding-top: 0vh;
+  }
+  .welcome-heading {
+    font-size: 3em;
+  }
+}
+
 .csamba-landing-page--1 .welcome {
   position: relative;
   height: 100vh;

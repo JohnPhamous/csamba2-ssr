@@ -56,7 +56,7 @@ export default {
         },
         {
           name: 'News Archive',
-          link: '?newsarchive'
+          link: '/newsarchive'
         },
         {
           name: 'Funding',

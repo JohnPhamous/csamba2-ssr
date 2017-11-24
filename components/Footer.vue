@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="footer">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <span class="navbar-brand">© 2018 Regents of the University of California</span>
@@ -18,3 +18,4 @@
     </nav>
   </footer>
 </template>
+
