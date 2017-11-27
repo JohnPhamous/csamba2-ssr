@@ -22,6 +22,24 @@ export default {
     return {
       events: [
         {
+          date: '01/28/2018',
+          title: 'Antibacterial Studies of ZnO Nanoparticle Coatings on Nanocrystalline YSZ Irradiated with Femtosecond Laser Light.',
+          abstract: 'Crysthal Alvarez, Valeria Garcia, Natanael Cuando-Espitia, and Guillermo Aguilar., Optical Imaging, Therapeutics, and Advanced Technology in Head and Neck Surgery and Otolaryngology 2018 Conference in SPIE Photonics West at The Moscone Center in San Francisco, CA',
+          externalLink: ''
+        },
+        {
+          date: '01/28/2018',
+          title: 'Laser speckle imaging of brain blood flow through a transparent nanocrystalline yttria-stabilized-zirconia cranial implant.',
+          abstract: 'Davoodzadeh N, Aminfar H, Halaney D, Jonak C, Cuando N, Binder D, Aguilar G., SPIE BiOS, San Francisco, CA (talk) (2018).',
+          externalLink: ''
+        },
+        {
+          date: '01/27/2018',
+          title: 'Influence of low temperature ageing on optical and mechanical properties of transparent yttria stabilized-zirconia cranial prosthesis.',
+          abstract: 'Davoodzadeh N, Halaney D, Uahengo G, Garay JE, Aguilar G., SPIE BiOS, San Francisco, CA (talk) (2018).',
+          externalLink: ''
+        },
+        {
           date: '11/20/2017',
           title: 'Inland Empire Stem Cell Consortium at Cal State University San Bernardino',
           abstract: 'Dana Rutherford and Huinan Liu, Window To The Brain: Culture of BMSCs With Polished, Unpolished, and Nanopowder 8YSZ',

@@ -33,6 +33,10 @@ export default {
     return {
       publications: [
         {
+          citation: 'M. I. Gutierrez, E. H. Penilla, L. Leija, A. Vera, J. E. Garay, G. Aguilar, Adv. Healthcare Mater. 2017, 6, 1700214. https://doi.org/10.1002/adhm.201700214',
+          link: 'http://onlinelibrary.wiley.com/doi/10.1002/adhm.201700214/abstract'
+        },
+        {
           citation: 'Damestani Y, De Howitt N, Halaney DL, Garay JE, Aguilar GA (2016), Evaluation of laser bacterial anti-fouling of transparent nanocrystalline yttria-stabilized-zirconia cranial implant. Lasers Surg Med, 48: 782-789.',
           link: 'http://onlinelibrary.wiley.com/doi/10.1002/lsm.22558/abstract'
         },
