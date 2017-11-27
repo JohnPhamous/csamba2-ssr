@@ -22,6 +22,12 @@ export default {
     return {
       events: [
         {
+          date: '11/20/2017',
+          title: 'Inland Empire Stem Cell Consortium at Cal State University San Bernardino',
+          abstract: 'Dana Rutherford and Huinan Liu, Window To The Brain: Culture of BMSCs With Polished, Unpolished, and Nanopowder 8YSZ',
+          externalLink: ''
+        },
+        {
           date: '06/28/2017',
           title: 'Window to the Brain research presentation (talk/poster) at the UC System Bioengineering Symposium. Los Angeles, CA.',
           abstract: 'Corber SR, Ashby DZ, Khandan O, Cuando N, Aguilar G, Rao MP. "Progress towards the Fabrication of Hollow, Out-of-Plane, Titanium Microneedles for Transdermal Delivery of Optical Clearing Agents"',
