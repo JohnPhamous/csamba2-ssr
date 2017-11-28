@@ -45,7 +45,7 @@
                 <img class="collaborator" src="../../static/img/collaborators/inaoe.jpg" alt="INAOE">
               </div>
 
-              <div class="col-md-2 d-flex align-items-cente col-sm-1r">
+              <div class="col-md-2 d-flex align-items-center col-sm-1">
                 <img class="collaborator" src="../../static/img/collaborators/unam.png" alt="UNAM">
               </div>
 
