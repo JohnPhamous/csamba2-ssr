@@ -19,3 +19,17 @@
   </footer>
 </template>
 
+<style scoped>
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 20px;
+}
+
+body {
+  
+}
+</style>
+
