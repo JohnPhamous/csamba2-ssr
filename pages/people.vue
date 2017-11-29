@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <h3 class="section-title text-center m-5">C-SAMBA Graduate Students</h3>
+    <h3 class="section-title text-center m-5">c-samba graduate students</h3>
     <div class="container py-5">
       <div class="row">
 
@@ -47,12 +47,29 @@
 
       </div>
     </div>
+
+    <h3 class="section-title text-center m-5">Undergraduate Research Group</h3>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-12 mb-5 people text-center">
+          <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+            <img src="img/wttb2.png"
+              class="w-100"
+            />
+          </div>
+          <a href="/undergraduates" class="btn btn-primary btn-pill">Learn More</a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .card {
   width: 90%;
+}
+.undergrads {
+  width: 100px;
 }
 </style>
 
