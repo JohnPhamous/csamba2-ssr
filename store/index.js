@@ -36,13 +36,13 @@ const createStore = () => {
         },
         {
           name: 'Biocompatibility',
-          link: '/research/biocompatibility',
+          link: '/research/biocompatability',
           external: false
         },
         {
           name: 'Optical Imaging and Therapy',
           link: '/research/opticalimagingandtherapy',
-          external: true
+          external: false
         },
         {
           name: 'Ceramic Welding',

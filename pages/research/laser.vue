@@ -1,14 +1,10 @@
 <template>
   <div class="people section py-4">
-    <h3 class="section-title text-center m-5">Manufacturing</h3>
+    <h3 class="section-title text-center m-5">Laser-written Photonic Structures</h3>
     <div class="container">
-      <div class="row">
-      </div>
+      <p>
+        Optical waveguides are channels in a material which spatially confine light, directing its propagation. Waveguides can be written onto materials via laser irradiation, where the laser changes the refractive index of the material. In nanocrystalline YSZ, the material of the Window to the Brain implant, it is possible to write waveguides using much lower laser power than for other materials, such as silicon. We have previously demonstrated waveguides written along the surface of the YSZ implants, and are now working on writing waveguides across the bulk of the implant. Ultimately, we aim to couple these waveguides to optical fibers to allow for greater optical penetration to deeper targets within the brain. We are also interested in writing diverging waveguide structures to increase the field of view for diagnostic imaging procedures (e.g. Optical Coherence Tomography imaging). 
+      </p>
     </div>
   </div>
 </template>
-
-<script>
-export default {
-}
-</script>
