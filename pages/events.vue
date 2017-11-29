@@ -29,7 +29,7 @@ export default {
         },
         {
           date: '01/28/2018',
-          title: 'Laser speckle imaging of brain blood flow through a transparent nanocrystalline yttria-stabilized-zirconia cranial implant.',
+          title: 'Laser speckleg imaging of brain blood flow through a transparent nanocrystalline yttria-stabilized-zirconia cranial implant.',
           abstract: 'Davoodzadeh N, Aminfar H, Halaney D, Jonak C, Cuando N, Binder D, Aguilar G., SPIE BiOS, San Francisco, CA (talk) (2018).',
           externalLink: ''
         },

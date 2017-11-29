@@ -52,7 +52,6 @@
               <div class="col-md-2 d-flex align-items-center col-sm-1">
                 <img class="collaborator" src="../../static/img/collaborators/ucsd.jpg" alt="UCSD">
               </div>
-
             </div>
 
           </div>
@@ -80,57 +79,13 @@ export default {
   components: {
     wttb
   },
+  computed: {
+    researchThemes () {
+      return this.$store.state.researchThemes
+    }
+  },
   data: function () {
     return {
-      researchThemes: [
-        {
-          name: 'Manufacturing',
-          link: ''
-        },
-        {
-          name: 'Nanopowder Synthesis',
-          link: ''
-        },
-        {
-          name: 'Material Fabrication',
-          link: ''
-        },
-        {
-          name: 'Material Characterization',
-          link: ''
-        },
-        {
-          name: 'Fiber Development and Coupling',
-          link: ''
-        },
-        {
-          name: 'Laser-Written Photonic Structures',
-          link: ''
-        },
-        {
-          name: 'Biocompatibility',
-          link: ''
-        },
-        {
-          name: 'Optical Imaging and Therapy',
-          link: ''
-        },
-        {
-          name: 'Ceramic Welding',
-          link: '',
-          external: true
-        },
-        {
-          name: 'Optical Cavitation',
-          link: '',
-          external: true
-        },
-        {
-          name: 'Laser Processing',
-          link: '',
-          external: true
-        }
-      ]
     }
   }
 }

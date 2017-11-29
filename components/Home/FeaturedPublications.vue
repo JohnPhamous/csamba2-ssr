@@ -9,7 +9,9 @@
 
             <div class="col-md-6">
               <div class="card mb-4">
-                <img class="card-img-top" src="../../static/img/publications/tnyszcp.jpg" alt="Transparent nanocrystalline yttria-stabilized-zirconia calvarium prosthesis">
+                <div class="img-container">
+                  <img class="card-img-top" src="../../static/img/publications/tnyszcp.jpg" alt="Transparent nanocrystalline yttria-stabilized-zirconia calvarium prosthesis">
+                </div>
                 <div class="card-body">
                   <h4 class="card-title">Transparent nanocrystalline yttria-stabilized-zirconia calvarium prosthesis</h4>
                   <p class="card-text">Laser-based diagnostics and therapeutics show promise for many neurological disorders. However, the poor transparency of cranial bone (calvaria) limits the spatial resolution and interaction depth that can be achieved, thus constraining opportunity in this regard. Herein, we report preliminary results from efforts seeking to address this limitation through use of novel transparent cranial implants made from nanocrystalline yttria-stabilized zirconia (nc-YSZ).</p>

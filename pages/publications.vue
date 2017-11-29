@@ -33,7 +33,7 @@ export default {
     return {
       publications: [
         {
-          citation: 'M. I. Gutierrez, E. H. Penilla, L. Leija, A. Vera, J. E. Garay, G. Aguilar, Adv. Healthcare Mater. 2017, 6, 1700214. https://doi.org/10.1002/adhm.201700214',
+          citation: 'M. I. Gutierrez, E. H. Penilla, L. Leija, A. Vera, J. E. Garay, G. Aguilar, Adv. Healthcare Mater. 2017, 6, 1700214.',
           link: 'http://onlinelibrary.wiley.com/doi/10.1002/adhm.201700214/abstract'
         },
         {
