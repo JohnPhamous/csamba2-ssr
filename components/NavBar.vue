@@ -14,6 +14,8 @@
           >
             <nuxt-link class="nav-link"
               :to="n.link"
+              active-class="active"
+              exact
             >
               {{ n.name }}
             </nuxt-link>
