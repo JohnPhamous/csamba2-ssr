@@ -22,19 +22,76 @@
           </li>
         </ul>
 
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto" v-if="!this.$store.state.isLoggedIn">
           <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
+            <span class="nav-link" @click="logingIn = true" >Login</span>
           </li>
         </ul>
+        <ul class="navbar-nav ml-auto" v-else>
+          <li class="nav-item">
+            <nuxt-link
+              class="nav-link"
+              to="/internal"
+              active-class="active"
+            >
+              Internal
+            </nuxt-link>
+          </li>
+        </ul>
+      </div>
+
+      <div class="modal" :class="{ active: logingIn }" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">C-SAMBA Internal Login</h5>
+              <button type="button" class="close" @click="logingIn = false" >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <label>Password</label>
+              <input
+                placeholder="Enter your password"
+                type="password"
+                class="form-control"
+                v-model="password"
+                :class="{ 'is-invalid': error }"
+              />
+              <div class="invalid-feedback">
+                Invalid password. Please contact the project manager.
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" @click="login">Login</button>
+              <button type="button" class="btn btn-secondary" @click="logingIn = false">Cancel</button>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
 </template>
 
 <script>
 export default {
+  methods: {
+    login() {
+      if (this.password === this.$store.state.password) {
+        this.$store.state.isLoggedIn = true
+        this.logingIn = false
+        this.$router.push('/internal')
+      }
+      else {
+        this.error = true
+      }
+      console.log(this.error)
+    }
+  },
   data: function () {
     return {
+      logingIn: false,
+      error: false,
+      password: '',
       navItems: [
         {
           name: 'Home',
@@ -77,3 +134,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.active {
+  display: block;
+}
+</style>

@@ -3,6 +3,8 @@ import Vuex from 'vuex'
 const createStore = () => {
   return new Vuex.Store({
     state: {
+      isLoggedIn: false,
+      password: "csamba@ucr",
       researchThemes: [
         {
           name: 'Manufacturing',

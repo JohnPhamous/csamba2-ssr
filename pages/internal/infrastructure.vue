@@ -1,6 +1,6 @@
 <template>
   <div class="infrastructure">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS306DYnoaKPIfou5P1PyS9niu3DioFq84VrfunOeUuY3v4T8xmmI5OJ83Rh-7NIm3L1Ts2CiWJbYDl/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    <iframe id="spreadsheet" src="https://docs.google.com/spreadsheets/d/1Oypm_4GnhOXOegZoDozKgAwNhoNVrJetzyv81lsFp2U/edit?usp=sharing&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
   </div>
 </template>
 
@@ -9,5 +9,8 @@ export default {}
 </script>
 
 <style>
-
+#spreadsheet {
+  width: 100%;
+  height: 90vh;
+}
 </style>

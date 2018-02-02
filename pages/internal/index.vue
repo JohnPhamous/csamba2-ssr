@@ -7,13 +7,13 @@
         <div class="col-md-3">
           <h2>Forms</h2>
           <div class="list-group">
-            <a 
+            <a
               v-for="form in forms"
               :key="form.file"
               class="list-group-item"
               :href="`/docs/${form.file}`"
             >
-             {{ form.name }} 
+             {{ form.name }}
             </a>
           </div>
         </div>
@@ -21,13 +21,13 @@
         <div class="col-md-4">
           <h2>Communications</h2>
           <div class="list-group">
-            <a 
+            <router-link
               class="list-group-item"
-              href="#"
+              to="/internal/people"
             >
               Lab Personnel List
-            </a>
-            <a 
+            </router-link>
+            <a
               class="list-group-item"
               href="https://csamba.slack.com/"
             >
@@ -37,22 +37,27 @@
         </div>
 
         <div class="col-md-4">
-          <h2>Infrastructure</h2>
+          <h2>Tooling and Capabilities</h2>
           <div class="list-group">
-            <a 
+            <router-link
               class="list-group-item"
-              href="https://docs.google.com/spreadsheets/d/1Oypm_4GnhOXOegZoDozKgAwNhoNVrJetzyv81lsFp2U/edit?usp=sharing"
+              to="/internal/infrastructure"
             >
               Equipment List
-            </a>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS306DYnoaKPIfou5P1PyS9niu3DioFq84VrfunOeUuY3v4T8xmmI5OJ83Rh-7NIm3L1Ts2CiWJbYDl/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            </router-link>
+            <router-link
+              class="list-group-item"
+              to="/internal/capabilities"
+            >
+              Capabilities
+            </router-link>
           </div>
         </div>
 
         <div class="col-md-4">
           <h2>Documents</h2>
           <div class="list-group">
-            <a 
+            <a
               class="list-group-item"
               href="#"
             >
@@ -68,6 +73,11 @@
 
 <script>
 export default {
+  created: function () {
+    if (!this.$store.state.isLoggedIn) {
+      this.$router.push('/')
+    }
+  },
     data: function() {
         return {
             forms: [
