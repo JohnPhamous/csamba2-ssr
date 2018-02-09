@@ -11,7 +11,8 @@
         <tbody>
           <tr v-for="p in publications" :key="p.link">
             <td>
-              <a :href="p.link">{{ p.citation }}</a>
+              <a v-if="p.link.includes('http')" :href="p.link">{{ p.citation }}</a>
+              <p v-else>{{ p.citation }}</p>
             </td>
           </tr>
         </tbody>
@@ -25,6 +26,9 @@
   box-shadow: 0 0 25px rgba(40, 47, 60, 0.05), 0 20px 25px rgba(40, 47, 60, 0.05), 0 3px 4px rgba(40, 47, 60, 0.05);
   border: 5px;
 }
+p {
+  margin-bottom: 0px;
+}
 </style>
 
 <script>
@@ -32,6 +36,10 @@ export default {
   data: () => {
     return {
       publications: [
+        {
+          citation: 'J. Hernandez-Cordero, R. Ramos-Garcia, S. Camacho-Lopez, G. Aguilar. “A New Window for Photonics in the Brain”. IEEE (2018) (accepted).',
+          link: '#'
+        },
         {
           citation: 'M. I. Gutierrez, E. H. Penilla, L. Leija, A. Vera, J. E. Garay, G. Aguilar, Adv. Healthcare Mater. 2017, 6, 1700214.',
           link: 'http://onlinelibrary.wiley.com/doi/10.1002/adhm.201700214/abstract'
