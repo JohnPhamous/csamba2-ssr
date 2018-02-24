@@ -6,7 +6,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-        <span class="navbar-nav ml-auto">© 2018 Regents of the University of California</span>
+        <span class="navbar-nav ml-auto">&copy; 2018 Regents of the University of California</span>
           <!--<ul class="navbar-nav ml-auto">-->
             <!--<li class="nav-item active">-->
               <!--<a class="nav-link" href="http://johnpham.net">Created and Maintained by John Pham<span class="sr-only">(current)</span></a>-->

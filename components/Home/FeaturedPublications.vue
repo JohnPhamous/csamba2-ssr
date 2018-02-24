@@ -15,7 +15,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Transparent nanocrystalline yttria-stabilized-zirconia calvarium prosthesis</h4>
                   <p class="card-text">Laser-based diagnostics and therapeutics show promise for many neurological disorders. However, the poor transparency of cranial bone (calvaria) limits the spatial resolution and interaction depth that can be achieved, thus constraining opportunity in this regard. Herein, we report preliminary results from efforts seeking to address this limitation through use of novel transparent cranial implants made from nanocrystalline yttria-stabilized zirconia (nc-YSZ).</p>
-                  <a class="btn btn-primary btn-pill" href="http://www.nanomedjournal.com/article/S1549-9634(13)00361-4/abstract">Read More &rarr;</a>
+                  <a class="btn btn-primary btn-pill" href="http://www.nanomedjournal.com/article/S1549-9634(13)00361-4/abstract">Read More</a>
                 </div>
               </div>
             </div>
@@ -25,8 +25,8 @@
                 <img class="card-img-top" src="../../static/img/publications/elbaft.jpg" alt="Evaluation of laser bacterial anti-fouling of transparent nanocrystalline yttria-stabilized-zirconia cranial implant">
                 <div class="card-body">
                   <h4 class="card-title">Evaluation of laser bacterial anti-fouling of transparent nanocrystalline yttria-stabilized-zirconia cranial implant</h4>
-                  <p class="card-text">The development and feasibility of a novel nanocrystalline yttria-stabilized-zirconia (nc-YSZ) cranial implant has been recently established. The purpose of what we now call â€œwindow to the brain (WttB) implant (or platform), is to improve patient care by providing a technique for delivery and/or collection of light into/from the brain, on demand, over large areas...</p>
-                  <a class="btn btn-primary btn-pill" href="http://onlinelibrary.wiley.com/doi/10.1002/lsm.22558/abstract">Read More &rarr;</a>
+                  <p class="card-text">The development and feasibility of a novel nanocrystalline yttria-stabilized-zirconia (nc-YSZ) cranial implant has been recently established. The purpose of what we now call window to the brain (WttB) implant (or platform), is to improve patient care by providing a technique for delivery and/or collection of light into/from the brain, on demand, over large areas...</p>
+                  <a class="btn btn-primary btn-pill" href="http://onlinelibrary.wiley.com/doi/10.1002/lsm.22558/abstract">Read More</a>
                 </div>
               </div>
             </div>
