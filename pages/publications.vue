@@ -62,7 +62,7 @@ export default {
         },
         {
           citation: 'Castillo-Vega GR, Penilla EH, Camacho-Lopez S, Aguilar G, Garay JE (2012), Waveguide-like structures written in transparent polycrystalline ceramics with an ultra-low fluence femtosecond laser. Opt Mater Express, 2: 1416-1424.',
-          link: 'https://www.osapublishing.org/captcha/?guid=BB587CD7-060F-6088-640C-8774F76A1A2C'
+          link: 'https://www.osapublishing.org/ome/abstract.cfm?uri=ome-2-10-1416'
         }
       ]
     }
