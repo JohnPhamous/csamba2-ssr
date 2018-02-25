@@ -57,7 +57,7 @@
       <div class="col-md-12 collaborators">
         <div class="row justify-content-center">
           <div class="col-md-2 col-md-offset-2 d-flex align-items-center col-sm-1">
-            <img class="collaborator" src="../../static/img/collaborators/ucr.jpg" alt="UCR">
+            <img class="collaborator" src="../../static/img/collaborators/ucr.png" alt="UCR">
           </div>
 
           <div class="col-md-2 d-flex align-items-center col-sm-1">
@@ -65,7 +65,7 @@
           </div>
 
           <div class="col-md-2 d-flex align-items-center col-sm-1">
-            <img class="collaborator" src="../../static/img/collaborators/inaoe.jpg" alt="INAOE">
+            <img class="collaborator" src="../../static/img/collaborators/inaoe.png" alt="INAOE">
           </div>
 
           <div class="col-md-2 d-flex align-items-center col-sm-1">
@@ -73,7 +73,7 @@
           </div>
 
           <div class="col-md-2 d-flex align-items-center col-sm-1">
-            <img class="collaborator" src="../../static/img/collaborators/ucsd.jpg" alt="UCSD">
+            <img class="collaborator" src="../../static/img/collaborators/ucsd.png" alt="UCSD">
           </div>
         </div>
 
