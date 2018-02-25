@@ -1,17 +1,17 @@
 <template>
-  <div class="events people section py-4">
-    <h3 class="section-title text-center m-5">C-SAMBA Events</h3>
-    <div class="container">
-      <div v-for="e in events"
-        :key="e.title"
-        class="card mb-3"
-      >
-        <div class="card-header text-white bg-primary">{{ e.date }}</div>
-        <div class="card-body">
-          <h4 class="card-title">{{ e.title }}</h4>
-          <p class="card-text">{{ e.abstract }}</p>
-        </div>
-      </div>
+  <div>
+    <div class="events people section">
+      <h2 class="section-title-primary text-center">C-SAMBA Events</h2>
+      <table class="table table-responsive">
+        <tbody>
+          <tr v-for="e in events"
+            :key="e.title"
+            >
+            <td><strong>{{ e.date }}</strong></td>
+            <td>{{ e.title }}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
@@ -249,5 +249,30 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+tr:nth-child(odd) {
+  padding: 2rem 1rem;
+  color: white;
+  background: linear-gradient(to right, #1a1a1a, #007bff);
+  border: none;
+}
+tr:nth-child(even) {
+  padding: 2rem 1rem;
+  color: white;
+  background: linear-gradient(to right, #1a1a1a, #003d7e);
+  border: none;
+}
+td {
+  border: none;
+  padding: 3em;
+}
+td a {
+  color: white;
+}
+.table {
+  margin-bottom: 0;
+}
+p {
+  margin-bottom: 0px;
+}
 </style>
