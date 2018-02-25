@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero>WHO WE ARE.</Hero>
+    <Hero :hero="'/img/hero/Hero-People.png'">WHO WE ARE.</Hero>
     <div class="people section">
       <h3 class="section-title-primary text-center">C-SAMBA Personnel</h3>
       <div class="container py-5">

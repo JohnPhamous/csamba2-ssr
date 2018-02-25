@@ -1,5 +1,9 @@
 <template>
-  <div class="welcome d-flex justify-content-center flex-column">
+  <div class="welcome d-flex justify-content-center flex-column"
+    :style="`
+      background: url('${hero}') no-repeat center center fixed;
+      background-size: cover;
+    `">
     <section id="hero-content" class="container">
       <div class="inner-wrapper mb-auto container">
         <div class="row">
@@ -16,6 +20,7 @@
 
 <script>
   export default {
+    props: ['hero']
   }
 </script>
 

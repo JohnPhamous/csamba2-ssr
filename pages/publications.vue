@@ -1,30 +1,45 @@
 <template>
-  <div class="people section py-4">
-    <h3 class="section-title text-center m-5">C-SAMBA Publications</h3>
-    <div class="col-md-10 ml-auto mr-auto">
-      <table class="table table-striped table-responsive">
-        <thead class="bg-primary text-white">
-          <tr>
-            <th>Citation</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="p in publications" :key="p.link">
-            <td>
-              <a v-if="p.link.includes('http')" :href="p.link">{{ p.citation }}</a>
-              <p v-else>{{ p.citation }}</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+  <div>
+    <Hero :hero="'/img/hero/Hero-Publications.png'">WHAT WE DO.</Hero>
+    <div class="people section">
+      <h2 class="section-title-primary text-center">C-SAMBA Publications</h2>
+      <div>
+        <table class="table table-responsive">
+          <tbody>
+            <tr v-for="p in publications" :key="p.link">
+              <td>
+                <a v-if="p.link.includes('http')" :href="p.link">{{ p.citation }}</a>
+                <p v-else>{{ p.citation }}</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+tr:nth-child(odd) {
+  padding: 2rem 1rem;
+  color: white;
+  background: linear-gradient(to right, #1a1a1a, #007bff);
+  border: none;
+}
+tr:nth-child(even) {
+  padding: 2rem 1rem;
+  color: white;
+  background: linear-gradient(to right, #1a1a1a, #003d7e);
+  border: none;
+}
+td {
+  border: none;
+}
+td a {
+  color: white;
+}
 .table {
-  box-shadow: 0 0 25px rgba(40, 47, 60, 0.05), 0 20px 25px rgba(40, 47, 60, 0.05), 0 3px 4px rgba(40, 47, 60, 0.05);
-  border: 5px;
+  margin-bottom: 0;
 }
 p {
   margin-bottom: 0px;
@@ -32,7 +47,12 @@ p {
 </style>
 
 <script>
+import Hero from '../components/Hero'
+
 export default {
+  components: {
+    Hero
+  },
   data: () => {
     return {
       publications: [
