@@ -57,7 +57,7 @@ export default {
         },
         {
           publisherImage: 'ucr_news.png',
-          title: '',
+          title: 'Scientists Move Closer to Developing Therapeutic Window to the Brain',
           link: 'https://ucrtoday.ucr.edu/38537'
         },
         {
@@ -102,7 +102,7 @@ export default {
         },
         {
           publisherImage: 'ucr_news.png',
-          title: '',
+          title: '‘Window to the Brain’ Research to Ramp Up',
           link: 'http://ucrtoday.ucr.edu/32245'
         },
         {

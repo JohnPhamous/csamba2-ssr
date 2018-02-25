@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero :hero="'/img/hero/Hero-Home.png'">
-      C-SAMBA Biocompatability
+      <h1 class="text-white">C-SAMBA Biocompatability</h1>
     </Hero>
     <div class="people section">
       <h3 class="section-title-primary text-center">Biocompatability</h3>
@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import Hero from '../../components/Hero'
+import Hero from '../../components/Hero-Small'
 
 export default {
   components: {

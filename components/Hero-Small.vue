@@ -1,16 +1,14 @@
 <template>
   <div class="welcome d-flex justify-content-center flex-column"
     :style="`
-      background: url('${hero}') no-repeat center center fixed;
-      background-size: cover;
+    background: url('${hero}') no-repeat center center fixed;
+    background-size: cover;
     `">
     <section id="hero-content" class="container">
       <div class="inner-wrapper mb-auto container">
         <div class="row">
-          <div class="col-md-12 text-center">
-            <p class="text-white">
-              <slot></slot>
-            </p>
+          <div class="col-md-12 text-center text-white">
+            <slot></slot>
           </div>
         </div>
       </div>

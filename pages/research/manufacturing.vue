@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero :hero="'/img/hero/Hero-Home.png'">
-      C-SAMBA Manufacturing
+      <h1 class="text-white">C-SAMBA Manufacturing</h1>
     </Hero>
     <div class="people section">
       <h2 class="section-title-primary text-center">Manufacturing</h2>
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import Hero from '../../components/Hero'
+import Hero from '../../components/Hero-Small'
 
 export default {
   components: {

@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero :hero="'/img/hero/Hero-Home.png'">
-      C-SAMBA Material Fabrication
+      <h1 class="text-white">C-SAMBA Material Fabrication</h1>
     </Hero>
     <div class="people section">
       <h2 class="section-title-primary text-center">Material Fabrication</h2>
@@ -21,8 +21,14 @@
   </div>
 </template>
 
+<style scoped>
+  .figure-caption {
+    font-size: 0.8em !important;
+  }
+</style>
+
 <script>
-import Hero from '../../components/Hero'
+import Hero from '../../components/Hero-Small'
 
 export default {
   components: {
