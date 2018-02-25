@@ -1,14 +1,8 @@
 <template>
-  <div class="people section py-4">
-    <h3 class="section-title text-center m-5">C-SAMBA News Archive</h3>
-    <div class="col-md-10 ml-auto mr-auto">
+  <div>
+    <div class="people section">
+      <h2 class="section-title-primary text-center">C-SAMBA News Archive</h2>
       <table class="table table-responsive table-hover">
-        <thead class="bg-primary text-white">
-          <tr>
-            <th>Publisher</th>
-            <th>Title</th>
-          </tr>
-        </thead>
         <tbody>
           <tr v-for="n in news" :key="n.link">
             <td>
@@ -25,11 +19,24 @@
 </template>
 
 <style scoped>
-.table {
-  box-shadow: 0 0 25px rgba(40, 47, 60, 0.05), 0 20px 25px rgba(40, 47, 60, 0.05), 0 3px 4px rgba(40, 47, 60, 0.05);
-}
 .publisher {
   width: 25vh;
+}
+td {
+  padding: 3em;
+  border: none;
+}
+table {
+  margin-bottom: 0;
+}
+td a {
+  color: white;
+}
+tr:nth-child(odd) td:nth-child(even)  {
+  background: linear-gradient(to right, #007bff66, #007bff);
+}
+tr:nth-child(even) td:nth-child(even)  {
+  background: linear-gradient(to right, rgb(0, 63, 131), #007bff);
 }
 </style>
 
