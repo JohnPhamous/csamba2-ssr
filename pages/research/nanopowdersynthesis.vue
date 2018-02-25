@@ -1,11 +1,13 @@
 <template>
-  <div class="people section py-4">
-    <h3 class="section-title text-center m-5">Nanopowder Synthesis</h3>
+  <div>
+    <Hero :hero="'/img/hero/Hero-Home.png'">
+      C-SAMBA Nanopowder Synthesis
+    </Hero>
     <div class="container">
       <p>
         Five types of nanoparticles are utilized in the Window to the Brain project, as a precursor material for the implants, antibacterial coating for the implants, and as therapeutic agents for use through the Window to the Brain.
       </p>
-      <h3 class="section-title text-center m-5">YSZ Nanopowder Synthesis</h3>
+      <h2 class="section-title-primary text-center">YSZ Nanopowder Synthesis</h2>
       <div class="research-figure float-left">
         <img class="research-img figure-img img-fluid rounded" src="/img/research/nano4.jpg" alt="TEM micrograph of yttria-stabilized zirconia nanoparticles, which are densified to create the Window to the Brain implant. ">
         <figcaption class="figure-caption">TEM micrograph of yttria-stabilized zirconia nanoparticles, which are densified to create the Window to the Brain implant.</figcaption>
@@ -16,30 +18,37 @@
       <p>
         Nanopowder synthesis is an area where the group focuses on developing the next generation of researchers. The group uses a novel process to create the nanoparticles so it is a great experience for undergraduate researchers. C-SAMBA faculty and undergraduates work together to create 10 nm particles using an aerosol process. The current goal for the team is to scale up production of the nanopowders to 1 gram of nanopowder per day.
       </p>
-      <h3 class="mt section-title text-center">Antibacterial Nanopowder Synthesis</h3>
+      <h2 class="section-title-secondary text-center">Antibacterial Nanopowder Synthesis</h2>
       <div class="research-figure float-right">
         <img class="research-img figure-img img-fluid rounded" src="/img/research/nano3.png" alt="TEM micrograph of yttria-stabilized zirconia nanoparticles, which are densified to create the Window to the Brain implant. ">
         <figcaption class="figure-caption">TEM micrograph of a molybdenum carbide nanoparticle. The nanoparticle is coated in graphite layers for improved thermal properties.</figcaption>
       </div>
       <p>
-        In addition to precursor nanopowder for the implant fabrication, the team also synthesizes nanoparticles for antibacterial coatings for the implants. This is an important aspect of the WttB because bacterial infections following implantation surgery are the leading cause of cranial implant failure. This is primarily due to E. coli infections. 
+        In addition to precursor nanopowder for the implant fabrication, the team also synthesizes nanoparticles for antibacterial coatings for the implants. This is an important aspect of the WttB because bacterial infections following implantation surgery are the leading cause of cranial implant failure. This is primarily due to E. coli infections.
       </p>
       <p>
-        The team is currently synthesizing two types of nanoparticles for antibacterial applications. Both zinc oxide (ZnO) and molybdenum (Mo) nanoparticles possess antibacterial properties, while being biocompatible to host tissue. In addition to synthesizing the nanoparticles, the team is also conducting in vitro bacterial viability studies, as well as methods to coat the implant, such as (drop coating). 
+        The team is currently synthesizing two types of nanoparticles for antibacterial applications. Both zinc oxide (ZnO) and molybdenum (Mo) nanoparticles possess antibacterial properties, while being biocompatible to host tissue. In addition to synthesizing the nanoparticles, the team is also conducting in vitro bacterial viability studies, as well as methods to coat the implant, such as (drop coating).
       </p>
       <p>
-        ZnO nanoparticles possess antibacterial properties alone, and these properties are further enhanced by femtosecond laser irradiation. Molybdenum carbide nanoparticles encapsulated by graphitized carbon layers also possess antibacterial properties, with the added benefit of excellent thermal and chemical stability, making them appropriate for thermal management applications as well. 
+        ZnO nanoparticles possess antibacterial properties alone, and these properties are further enhanced by femtosecond laser irradiation. Molybdenum carbide nanoparticles encapsulated by graphitized carbon layers also possess antibacterial properties, with the added benefit of excellent thermal and chemical stability, making them appropriate for thermal management applications as well.
       </p>
       <p>
         Both of these nanoparticles are inexpensive to synthesize, making them ideal candidates for this application.
       </p>
     </div>
   </div>
+</div>
 </template>
 
 <style scoped>
-.mt {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
 </style>
+
+<script>
+  import Hero from '../../components/Hero'
+
+export default {
+  components: {
+    Hero
+  }
+}
+</script>
