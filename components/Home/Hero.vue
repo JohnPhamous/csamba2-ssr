@@ -10,6 +10,23 @@
                     </h1>
                     <p class="slogan text-white">Developing the next generation of implantable materials</p>
                 </div>
+                <!--<div class="col-md-12">-->
+                  <!--<div class="row">-->
+                    <!--<div class="col-md-4 hero-card">-->
+                      <!--<div class="hero-card-content text-center">-->
+                        <!--<div class="hero-card-header">-->
+                          <!--<p><strong>PUBLICATIONS</strong></p>-->
+                        <!--</div>-->
+                      <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-4 hero-card">-->
+                      <!--<div class="hero-card-content"></div>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-4 hero-card">-->
+                      <!--<div class="hero-card-content"></div>-->
+                    <!--</div>-->
+                  <!--</div>-->
+                <!--</div>-->
               </div>
             </div>
       </section>
@@ -17,6 +34,16 @@
 </template>
 
 <style scoped>
+.hero-card {
+  height: 200px;
+  width: 200px;
+}
+.hero-card-content {
+  background: #1a1a1a;
+  height: inherit;
+  padding: 1.5em;
+  color: white;
+}
 #hero-content {
   padding-top: 15vh;
 }
@@ -34,7 +61,7 @@
   position: relative;
   height: 100vh;
   min-height: 700px;
-  background: url("../../static/img/hero.jpg") no-repeat center center fixed;
+  background: url("/img/hero/Hero-Home.png") no-repeat center center fixed;
   background-size: cover;
 }
 h1 {
