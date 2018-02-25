@@ -2,7 +2,7 @@
   <div>
     <Hero/>
     <Overview/>
-    <FeaturedPublications/>
+    <!--<FeaturedPublications/>-->
   </div>
 </template>
 

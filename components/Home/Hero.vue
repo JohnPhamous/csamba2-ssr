@@ -5,8 +5,10 @@
               <div class="row">
                 <div class="col-md-12 text-center">
                     <img src="../../static/img/logo.png" alt="Window to the Brain Logo">
-                    <h1 class="welcome-heading display-4 text-white">Center for the Synthesis of Advanced Materials for Biomedical Applications</h1>
-                    <p class="text-white">Developing the next generation of implantable materials</p>
+                    <h1 class="welcome-heading text-white">
+                      <span class="letter">C</span>enter<span class="small"> for the </span> <span class="letter">S</span>ynthesis<span class="small"> of </span> <span class="letter">A</span>dvanced <span class="letter">M</span>aterials <span class="small">for </span> <span class="letter">B</span>iomedical <span class="letter">A</span>pplications
+                    </h1>
+                    <p class="slogan text-white">Developing the next generation of implantable materials</p>
                 </div>
               </div>
             </div>
@@ -34,6 +36,19 @@
   min-height: 700px;
   background: url("../../static/img/hero.jpg") no-repeat center center fixed;
   background-size: cover;
+}
+h1 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+.letter {
+  font-weight: 800;
+}
+.small {
+  font-size: 1.5rem;
+}
+.slogan {
+  letter-spacing: 3px;
 }
 </style>
 

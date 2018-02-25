@@ -6,12 +6,12 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-        <span class="navbar-nav ml-auto">&copy; 2018 Regents of the University of California</span>
-          <!--<ul class="navbar-nav ml-auto">-->
-            <!--<li class="nav-item active">-->
-              <!--<a class="nav-link" href="http://johnpham.net">Created and Maintained by John Pham<span class="sr-only">(current)</span></a>-->
-            <!--</li>-->
-          <!--</ul>-->
+        <span class="navbar-nav mr-auto text-white">&copy; 2018 Regents of the University of California</span>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item text-white">
+              Center for the Synthesis of Advanced Materials for Biomedical Applications
+            </li>
+          </ul>
         </div>
 
       </div>
@@ -21,13 +21,14 @@
 
 <style scoped>
 .footer {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
-  margin-top: 20px;
 }
-
+.bg-dark {
+  background: #1a1a1a !important;
+}
 body {
 
 }

@@ -2,7 +2,7 @@
   position: relative;
   height: 100vh;
   min-height: 700px;
-  background: url("static/img/hero.jpg") no-repeat center center fixed;
+  background: url('static/img/hero.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -14,8 +14,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: .8;
-  background: #007bff;
+  opacity: 0.8;
+  background: #080d14;
 }
 
 @media (max-width: 767px) {
@@ -30,19 +30,25 @@
   }
 }
 
-.csamba-landing-page--1 .section-title {
+.section-title-primary {
   position: relative;
+  background: #1a1a1a;
+  color: white;
+  padding: 30px;
+  letter-spacing: 5px;
+  font-weight: 600;
 }
-
-.csamba-landing-page--1 .section-title:after {
-  content: '';
-  width: 30px;
-  height: 2px;
+.section-title-secondary {
+  position: relative;
   background: #007bff;
-  position: absolute;
-  left: 50%;
-  margin-left: -15px;
-  bottom: -20px;
+  color: white;
+  padding: 30px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+.section-title-secondary,
+h2 {
+  margin-bottom: 0;
 }
 
 .csamba-landing-page--1 .feature .icon {
@@ -72,7 +78,8 @@
   position: relative;
   height: 100vh;
   min-height: 700px;
-  background: url("../images/app-promo/welcome-cover.jpg") no-repeat center center fixed;
+  background: url('../images/app-promo/welcome-cover.jpg') no-repeat center
+    center fixed;
   background-size: cover;
 }
 
@@ -84,7 +91,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: .9;
+  opacity: 0.9;
   background: #212529;
 }
 
@@ -138,7 +145,8 @@
 }
 
 .csamba-app-promo-page--1 .app-screenshot {
-  background: url("../images/app-promo/features-background.jpg") no-repeat center center fixed;
+  background: url('../images/app-promo/features-background.jpg') no-repeat
+    center center fixed;
   background-size: cover;
 }
 
@@ -150,7 +158,7 @@
   bottom: 0;
   right: 0;
   background: #e9ecef;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .csamba-app-promo-page--1 .app-screenshot img {
@@ -160,15 +168,16 @@
   top: 50%;
   left: 100%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  box-shadow: 0 13px 25px rgba(0, 0, 0, 0.05), 0 60px 100px rgba(192, 192, 192, 0.5);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 13px 25px rgba(0, 0, 0, 0.05),
+    0 60px 100px rgba(192, 192, 192, 0.5);
 }
 
 @media (max-width: 991px) {
   .csamba-app-promo-page--1 .app-screenshot img {
     left: 50%;
     -webkit-transform: translateX(-50%, 0);
-            transform: translateX(-50%, 0);
+    transform: translateX(-50%, 0);
   }
 }
 
@@ -202,7 +211,8 @@
 }
 
 @media (max-width: 767px) {
-  .csamba-app-promo-page--1 .subscribe input, .csamba-app-promo-page--1 .subscribe button {
+  .csamba-app-promo-page--1 .subscribe input,
+  .csamba-app-promo-page--1 .subscribe button {
     width: 100%;
   }
 }
