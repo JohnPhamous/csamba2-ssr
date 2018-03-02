@@ -1,13 +1,15 @@
 <template>
   <div>
-    <Hero :hero="'/img/hero/Hero-Publications.png'">WHAT WE DO.</Hero>
+    <Hero :hero="'/img/hero/Hero-Publications.png'">WHAT WE'VE DONE.</Hero>
     <div class="people section">
-      <h2 class="section-title-primary text-center">C-SAMBA Publications</h2>
-      <div>
-        <table class="table table-responsive">
+    <h2 class="section-title-primary text-center">	
+		<span class="flr"> C-SAMBA </span>
+	Publications</h2>
+	<div>
+        <table class="table table-responsive" >
           <tbody>
             <tr v-for="p in publications" :key="p.link">
-              <td>
+              <td style="padding:25px">
                 <a v-if="p.link.includes('http')" :href="p.link">{{ p.citation }}</a>
                 <p v-else>{{ p.citation }}</p>
               </td>
@@ -23,7 +25,7 @@
 tr:nth-child(odd) {
   padding: 2rem 1rem;
   color: white;
-  background: linear-gradient(to right, #1a1a1a, #007bff);
+  background: linear-gradient(to right, #1a1a1a, #0078D7);
   border: none;
 }
 tr:nth-child(even) {
@@ -41,6 +43,7 @@ td a {
 .table {
   margin-bottom: 0;
 }
+
 p {
   margin-bottom: 0px;
 }
@@ -57,11 +60,11 @@ export default {
     return {
       publications: [
         {
-          citation: 'J. Hernandez-Cordero, R. Ramos-Garcia, S. Camacho-Lopez, G. Aguilar. “A New Window for Photonics in the Brain”. IEEE (2018) (accepted).',
+          citation: 'Hernandez-Cordero J, Ramos-Garcia R, Camacho-Lopez S, Aguilar G (2018), A  New Window for Photonics in the Brain. IEEE Photonics Newsletter (accepted)',
           link: '#'
         },
         {
-          citation: 'M. I. Gutierrez, E. H. Penilla, L. Leija, A. Vera, J. E. Garay, G. Aguilar, Adv. Healthcare Mater. 2017, 6, 1700214.',
+          citation: 'M. I. Gutierrez, E. H. Penilla, L. Leija, A. Vera, J. E. Garay, G. Aguilar (2017), Novel Cranial Implants of Yttria-Stabilized Zirconia as Acoustic Windows for Ultrasonic Brain Therapy. Adv. Healthcare Mater. 6: 1700214',
           link: 'http://onlinelibrary.wiley.com/doi/10.1002/adhm.201700214/abstract'
         },
         {

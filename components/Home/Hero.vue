@@ -66,13 +66,13 @@
 }
 h1 {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .letter {
   font-weight: 800;
 }
 .small {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .slogan {
   letter-spacing: 3px;

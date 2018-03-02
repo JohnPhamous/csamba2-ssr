@@ -1,9 +1,9 @@
 <template>
   <div class="people section py-4">
-    <h3 class="section-title text-center m-5">The Window to the Brain Undergraduate Research Club</h3>
+    <h3 class="section-title text-center m-5 axis" style="letter-spacing: 1px">The Window to the Brain Undergraduate Research Club</h3>
     <div class="container">
-      <p>
-        The Window to the Brain - Undergraduate Research Club was founded to provide undergraduates with a community with a shared interest in participating in research.  We strive to build and strengthen confidence and knowledge in the STEM fields while readying undergraduates for research.  We promote connections with professors here on the UCR campus as well as with national leaders in the STEM fields.
+      <p class="ttl" style="font-size: 18px">
+        <i>The Window to the Brain - Undergraduate Research Club</i> was founded to provide undergraduates with a community with a shared interest in participating in research.  We strive to build and strengthen confidence and knowledge in the STEM fields while readying undergraduates for research.  We promote connections with professors here on the UCR campus as well as with national leaders in the STEM fields.
       </p>
     </div>
     <div class="container py-5">

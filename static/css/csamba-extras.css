@@ -1,7 +1,7 @@
 .csamba-landing-page--1 .welcome {
   position: relative;
-  height: 100vh;
-  min-height: 700px;
+  height: 85vh;
+  min-height: 771px;
   background: url('static/img/hero.jpg') no-repeat center center fixed;
   background-size: cover;
 }
@@ -36,15 +36,13 @@
   color: white;
   padding: 30px;
   letter-spacing: 5px;
-  font-weight: 600;
 }
 .section-title-secondary {
   position: relative;
-  background: #007bff;
+  background: #0078D7;
   color: white;
   padding: 30px;
-  letter-spacing: 5px;
-  font-weight: 600;
+  letter-spacing: 7px;
 }
 .section-title-secondary,
 h2 {

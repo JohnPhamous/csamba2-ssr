@@ -27,6 +27,9 @@
 <style scoped>
   .welcome-heading {
     font-weight: 800;
-    font-size: 6rem;
+    font-size: 5rem;
+	font-family: 'Axis';
+	letter-spacing: 4px;
+	margin-top: -100px;
   }
 </style>

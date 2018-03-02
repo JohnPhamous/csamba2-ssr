@@ -2,11 +2,13 @@
   <div>
     <Hero :hero="'/img/hero/Hero-People.png'">WHO WE ARE.</Hero>
     <div class="people section">
-      <h3 class="section-title-primary text-center">C-SAMBA Personnel</h3>
+  <h2 class="section-title-primary text-center">	
+	<span class="flr"> C-SAMBA </span>
+  Personnel</h2>
       <div class="container py-5">
         <div class="row">
 
-          <div v-for="p in personnel" :key="p.name" class="col-md-4 people text-center">
+          <div v-for="p in personnel" :key="p.name" class="col-md-4 people text-center ttl">
             <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
               <img :src="`img/people/${p.image}`"
               class="w-100"
@@ -31,7 +33,9 @@
       </div>
     </div>
 
-    <h3 class="section-title-secondary text-center"><strong>C-SAMBA</strong> Graduate Students</h3>
+        <h2 class="section-title-secondary text-center">	
+		<span class="flr"> C-SAMBA </span>
+	Graduate Students</h2>
     <div class="container py-5">
       <div class="row">
 
@@ -74,6 +78,7 @@
   .undergrads {
     width: 100px;
   }
+
 </style>
 
 <script>

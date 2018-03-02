@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <nuxt-link class="navbar-brand" to="/">
+      <nuxt-link class="navbar-brand flro" to="/">
         C-SAMBA
       </nuxt-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -136,6 +136,29 @@ export default {
 </script>
 
 <style>
+
+.flro {
+  font-family: "Flor", Helvetica, serif;
+  letter-spacing:2px;
+  padding-right:30px;
+  padding-left:30px;
+}
+
+.ttl {
+  font-family: "Cicle", Helvetica, serif;
+  letter-spacing:1px;
+}
+
+
+.flr {
+  font-family: "Flor", Helvetica, serif;
+}
+
+.axis {
+  font-family: "Axis", Helvetica, serif;
+}
+
+
 .active {
   display: block;
 }
