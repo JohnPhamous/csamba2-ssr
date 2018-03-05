@@ -11,8 +11,8 @@
 
         <div v-for="b in board" :key="b.name" class="col-md-4 people text-center">
             <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
-                <img :src="`img/people/${b.image}`"
-                  class="w-100" 
+                <img :src="`/img/people/${b.image}`"
+                  class="w-100"
                   :alt="b.name"
                 />
             </div>
