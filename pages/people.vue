@@ -305,6 +305,15 @@ export default {
           biography: '',
           externalWebsite: '',
           image: 'Pranee.jpg'
+        },
+        {
+          name: 'Christopher Rudnicki',
+          position: 'Mangolini Lab',
+          type: 'graduate',
+          abstract: 'Materials Science and Engineering Graduate Student',
+          biography: '',
+          externalWebsite: 'crudn001@ucr.edu',
+          image: 'rudnicki.jpg'
         }
       ]
     };
