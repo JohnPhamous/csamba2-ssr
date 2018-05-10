@@ -23,13 +23,14 @@
           <div class="list-group">
             <router-link
               class="list-group-item"
-              to="/internal/people"
+              to="/people"
             >
               Lab Personnel List
             </router-link>
             <a
               class="list-group-item"
               href="https://csamba.slack.com/"
+              target="_blank"
             >
               Slack Channel
             </a>
@@ -42,12 +43,14 @@
             <router-link
               class="list-group-item"
               to="/internal/infrastructure"
+              target="_blank"
             >
               Equipment List
             </router-link>
             <router-link
               class="list-group-item"
               to="/internal/capabilities"
+              target="_blank"
             >
               Capabilities
             </router-link>
@@ -82,7 +85,7 @@ export default {
         return {
             forms: [
                 {
-                    name: 'Student Travel Grant',
+                    name: 'UCR GSA Student Travel Grant',
                     file: 'travel_grant.pdf'
                 }
             ]
@@ -90,3 +93,9 @@ export default {
     }
 }
 </script>
+
+<style>
+  .footer {
+    position: absolute !important;
+  }
+</style>

@@ -102,6 +102,10 @@ export default {
           link: '/people'
         },
         {
+          name: 'Undergraduate Research',
+          link: '/undergraduates'
+        },
+        {
           name: 'Publications',
           link: '/publications'
         },

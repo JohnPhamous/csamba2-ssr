@@ -1,6 +1,6 @@
 <template>
   <div id="overview" class="overview section">
-  <h2 class="section-title-primary text-center">About	
+  <h2 class="section-title-primary text-center">About
 	<span class="flr"> C-SAMBA </span>
   </h2>
     <div class="features py-4 mb-4">
@@ -54,7 +54,7 @@
           <nuxt-link to="/research/laserprocessing">Laser Processing</nuxt-link>
         </div>
       </div>
-	  
+
 
 
     <h3 class="section-title-primary text-center" style="margin-bottom: 0rem; font-size: 18px; letter-spacing: 7px">COLLABORATORS</h3>
@@ -71,7 +71,7 @@
 		  <div class="col-md-2 d-flex align-items-center col-sm-1">
             <img class="collaborator" src="../../static/img/collaborators/cicese.png" alt="CICESE">
           </div>
-		  
+
           <div class="col-md-2 d-flex align-items-center col-sm-1">
             <img class="collaborator" src="../../static/img/collaborators/unam.png" alt="UNAM">
           </div>
@@ -86,6 +86,11 @@
 </template>
 
 <style scoped>
+@media (max-width: 550px) {
+  .collaborator {
+    margin-bottom: 80px;
+  }
+}
 .d-flex {
   justify-content: center;
 }
