@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="events people section">
-    <h2 class="section-title-primary text-center">	
+    <h2 class="section-title-primary text-center">
 		<span class="flr"> C-SAMBA </span>
 	Events</h2>
       <table class="table table-responsive">
@@ -35,6 +35,16 @@ export default {
     data: () => {
         return {
             events: [
+                {
+                    date1: '2018',
+                    date2: 'APR 14',
+                    date3: 'SAT',
+                    title:
+                        "Window to the Brain research presentation (talk) at ASLMS Conference, Dallas, TX",
+                    abstract: 'David L. Halaney, Jonak CR, Davoodzadeh N, Liu J, Shah J, Ehtiyatkar P, Park H, Binder DK, Aguilar G. “Optical coherence tomography and laser speckle imaging of the brain though a transparent cranial implant in a chronic mouse model.',
+                    externalLink:
+                        ''
+                },
                 {
                     date1: '2018',
                     date2: 'MAR 20',
