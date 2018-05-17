@@ -81,7 +81,7 @@
 </style>
 
 <script>
-import Hero from '../components/Hero';
+import Hero from '../components/Hero'
 
 export default {
   components: {
@@ -288,6 +288,15 @@ export default {
           image: 'samantha.jpg'
         },
         {
+          name: 'Mildred S. Cano-Velázquez',
+          position: 'Hernández-Cordero Lab',
+          type: 'graduate',
+          abstract: 'Electrical Engineering PhD Student',
+          biography: '',
+          externalWebsite: 'mildred.cano.vel@gmail.com',
+          image: 'MSCV.jpg'
+        },
+        {
           name: 'Dr. Julio Ramirez-San-Juan, PhD',
           position: 'C-SAMBA',
           type: 'collaborator',
@@ -316,19 +325,19 @@ export default {
           image: 'rudnicki.jpg'
         }
       ]
-    };
+    }
   },
   computed: {
     personnel: function() {
       return this.people.filter(person => {
-        return person.type === 'personnel';
-      });
+        return person.type === 'personnel'
+      })
     },
     graduates: function() {
       return this.people.filter(person => {
-        return person.type === 'graduate';
-      });
+        return person.type === 'graduate'
+      })
     }
   }
-};
+}
 </script>

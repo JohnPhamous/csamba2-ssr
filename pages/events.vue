@@ -41,6 +41,16 @@ export default {
                     date3: 'SAT',
                     title:
                         "Window to the Brain research presentation (talk) at ASLMS Conference, Dallas, TX",
+                    abstract: 'Nami Davoodzadeh, Natanael Cuando, Mildred Cano, Guillermo Aguilar. "ASSESSMENT OF BACTERIA GROWTH UNDER TRANSPARENT NANOCRYSTALLINE YTTRIASTABILIZED-ZIRCONIA CRANIAL IMPLANT USING LASER SPECKLE IMAGING."',
+                    externalLink:
+                        ''
+                },
+                {
+                    date1: '2018',
+                    date2: 'APR 14',
+                    date3: 'SAT',
+                    title:
+                        "Window to the Brain research presentation (talk) at ASLMS Conference, Dallas, TX",
                     abstract: 'David L. Halaney, Jonak CR, Davoodzadeh N, Liu J, Shah J, Ehtiyatkar P, Park H, Binder DK, Aguilar G. “Optical coherence tomography and laser speckle imaging of the brain though a transparent cranial implant in a chronic mouse model.',
                     externalLink:
                         ''
