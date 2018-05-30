@@ -41,6 +41,16 @@ export default {
                     date3: 'TUE',
                     title:
                         "Window to the Brain research presentation (talk) at UC Bioengineering Symposium, Riverside, CA",
+                    abstract: 'Nami Davoodzadeh, Cano M, Halaney DL, Jonak CR, Cuando N, Binder DK, Aguilar G. “Long-term brain blood perfusion imaging and bacterial growth monitoring using laser speckle imaging”',
+                    externalLink:
+                        ''
+                },
+                {
+                    date1: '2018',
+                    date2: 'JUNE 22',
+                    date3: 'TUE',
+                    title:
+                        "Window to the Brain research presentation (talk) at UC Bioengineering Symposium, Riverside, CA",
                     abstract: 'David L. Halaney, Jonak CR, Davoodzadeh N, Liu J, Ehtiyatkar P, Park H, Binder DK, Aguilar G. “Optical coherence tomography and laser speckle imaging of the brain though a transparent cranial implant in a chronic mouse model."',
                     externalLink:
                         ''
