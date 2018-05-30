@@ -37,6 +37,16 @@ export default {
             events: [
                 {
                     date1: '2018',
+                    date2: 'JUNE 22',
+                    date3: 'TUE',
+                    title:
+                        "Window to the Brain research presentation (talk) at UC Bioengineering Symposium, Riverside, CA",
+                    abstract: 'David L. Halaney, Jonak CR, Davoodzadeh N, Liu J, Ehtiyatkar P, Park H, Binder DK, Aguilar G. “Optical coherence tomography and laser speckle imaging of the brain though a transparent cranial implant in a chronic mouse model."',
+                    externalLink:
+                        ''
+                },
+                {
+                    date1: '2018',
                     date2: 'APR 14',
                     date3: 'SAT',
                     title:
